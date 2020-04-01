@@ -1,25 +1,33 @@
 {
   "name": "uLav FRESH",
   "author": "Frédéric Fortier-Chouinard",
-  "version": "0.0.0.1",
+  "version": "0.0.0.2",
   "description": "La vie est trop courte pour se reconnecter constamment à Mon Portail.",
   "permissions": [
     "alarms",
     "tabs",
+    "webNavigation",
+    "storage",
+    "contextMenus",
     "https://*.ulaval.ca/*"
   ],
   "background": {
     "scripts": [
-      "background.js"
+      "background/autoRefresh.js",
+      "background/browserAction.js"
     ],
     "persistent": false
   },
-  "icons": {
-    "16": "images/logo16.png",
-    "32": "images/logo32.png",
-    "48": "images/logo48.png",
-    "128": "images/logo128.png"
-  },
+  "content_scripts": [
+    {
+      "matches": ["https://authentification.ulaval.ca/*"],
+      "js": ["contentScripts/loginScript.js"]
+    },
+    {
+      "matches": ["https://authentification.ulaval.ca/index.html?*erreur*"],
+      "js": ["contentScripts/failedLoginScript.js"]
+    }
+  ],
   "browser_action": {
     "default_icon": {
       "16": "images/logo16.png",
@@ -28,6 +36,12 @@
       "128": "images/logo128.png"
     },
     "default_title": "uLav FRESH"
+  },
+  "icons": {
+    "16": "images/logo16.png",
+    "32": "images/logo32.png",
+    "48": "images/logo48.png",
+    "128": "images/logo128.png"
   },
   "manifest_version": 2
 }

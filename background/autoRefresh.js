@@ -1,13 +1,9 @@
-// When user clicks on extension icon, go to Mon Portail.
-chrome.browserAction.onClicked.addListener(function (tab) {
-    chrome.tabs.create({'url': 'https://monportail.ulaval.ca'})
-});
-
-
+// Start a timer to refresh all Mon Portail tabs
 chrome.alarms.create("refreshTabs", {
     "periodInMinutes": 55
 });
 
+// Refresh timer listener
 chrome.alarms.onAlarm.addListener((alarm) => {
     chrome.tabs.query({
         url: ["https://*.monportail.ulaval.ca/*", "https://monportail.ulaval.ca/*"]
