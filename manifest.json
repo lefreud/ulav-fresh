@@ -6,7 +6,6 @@
   "permissions": [
     "alarms",
     "tabs",
-    "webNavigation",
     "storage",
     "contextMenus",
     "https://*.ulaval.ca/*"

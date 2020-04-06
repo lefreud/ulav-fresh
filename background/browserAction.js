@@ -3,10 +3,12 @@ chrome.browserAction.onClicked.addListener(function (tab) {
     chrome.tabs.create({'url': 'https://monportail.ulaval.ca'});
 });
 
-chrome.contextMenus.create({
-    id: "resetCredentials",
-    title: "Réinitialiser mes données de connexion",
-    contexts: ["browser_action"]
+chrome.runtime.onInstalled.addListener(details => {
+    chrome.contextMenus.create({
+        id: "resetCredentials",
+        title: "Réinitialiser mes données de connexion",
+        contexts: ["browser_action"]
+    });
 });
 
 chrome.contextMenus.onClicked.addListener(() => {
