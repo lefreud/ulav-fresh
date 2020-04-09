@@ -1,0 +1,51 @@
+@import "../dark-theme";
+
+.ul_column_header-cell {
+  color: $on-surface !important;
+  background: $surface !important;
+  border-color: $background-border !important;
+}
+.ul_richTextEditor_content table {
+  border-color: $surface-border !important;
+}
+.ul_richTextEditor_content th {
+  background: $surface !important;
+}
+
+.ul_table_body-cell, .ul_richTextEditor_content td {
+  border-color: $background-border !important;
+  background: none !important;
+}
+.ul_richTextEditor_content table[border] th, .ul_richTextEditor_content table[border] td {
+  border-color: $background-border !important;
+}
+
+.ul_table {
+  border-color: $background-border !important;
+}
+.TableauMPO, .TableauMPO_Leger {
+  border-color: $background-border !important;
+}
+.CommentaireEnseignant, .CommentaireEnseignant_Contenu {
+  background: none !important;
+}
+
+.ul_table_body-empty-text, .EmptyText {
+  background: $background !important;
+}
+
+.af_table {
+  border-color: $background-border !important;
+}
+
+.CopieCorrigee_ZoneTentative_Item:hover, .af_column_column-header-cell {
+  background: $surface !important;
+}
+
+.af_column_column-header-cell {
+  color: $on-surface !important;
+}
+
+.af_table_data-table-VH-lines .af_column_data-cell, .af_table_data-table-VH-lines .af_column_banded-data-cell {
+  border-color: $surface-border !important;
+}

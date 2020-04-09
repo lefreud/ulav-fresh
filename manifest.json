@@ -25,6 +25,10 @@
     {
       "matches": ["https://authentification.ulaval.ca/index.html?*erreur*"],
       "js": ["contentScripts/failedLoginScript.js"]
+    },
+    {
+      "matches": ["https://monportail.ulaval.ca/*", "https://*.monportail.ulaval.ca/*"],
+      "css": ["injectedStyles/style.css"]
     }
   ],
   "browser_action": {

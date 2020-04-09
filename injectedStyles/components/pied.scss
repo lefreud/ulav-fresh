@@ -1,0 +1,9 @@
+@import "../dark-theme";
+
+.mpo-pied {
+  background: $background !important;
+  border-color: $background-border !important;
+  .mpo-pied-mention-legale {
+    background: $background !important;
+  }
+}

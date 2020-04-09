@@ -1,0 +1,15 @@
+@import "../dark-theme";
+
+.m-button:not(.m--is-waiting) {
+  background: $surface !important;
+}
+.mpo-bouton:disabled, .mpo-bouton:disabled:active, .mpo-bouton:disabled:focus, .mpo-bouton:disabled:hover, a.mpo-bouton:disabled, a.mpo-bouton:disabled:active, a.mpo-bouton:disabled:focus, a.mpo-bouton:disabled:hover {
+  background: $surface !important;
+}
+
+.af_commandImageLink.BtnSecondaire.p_AFDisabled, .af_commandImageLink.BtnSecondaire.p_AFDisabled:hover, .af_commandImageLink.BtnSecondaire.p_AFDisabled .af_commandImageLink_text, .af_commandImageLink.BtnSecondaire.p_AFDisabled .af_commandImageLink_text:hover {
+  background: $surface !important;
+}
+.af_commandButton.p_AFDisabled, .af_commandButton.p_AFDisabled:hover, .af_commandButton.p_AFDisabled:focus, .af_commandButton.p_AFDisabled:active {
+  background: $surface !important;
+}

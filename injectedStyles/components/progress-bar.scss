@@ -1,0 +1,9 @@
+@import "../dark-theme";
+
+.ProgessBar {
+  background: $surface !important;
+  border-color: $surface-border !important;
+}
+.ProgessBar_Content {
+  color: $on-surface !important;
+}

@@ -1,0 +1,119 @@
+@import "../dark-theme";
+
+.EnteteSiteCours {
+  color: $on-surface !important;
+  background: $surface !important;
+
+  .TitreCours {
+    color: $on-surface !important;
+  }
+
+  #lienListeCoursId:before {
+    color: $on-surface !important;
+  }
+}
+
+.ena_page {
+  background: $background !important;
+}
+
+.ZoneMenuSiteCours {
+  .MenuSiteCours_Accueil_Selected {
+    border-color: $surface-border !important;
+  }
+
+  .MenuSiteCours_Accueil_Selected, .MenuSiteCours_Item_Selected, .MenuSiteCours_PlanCoursPDF_Selected, .MenuSiteCours_Outils_Zone_Selected {
+    background: $surface-selected !important;
+
+    a {
+      color: white !important;
+    }
+  }
+
+  .MenuSiteCours_Accueil, .MenuSiteCours_Item, .MenuSiteCours_PlanCoursPDF, .MenuSiteCours_Outils_Zone, .MenuSiteCours_Outils_APPREUS {
+    background: $surface !important;
+
+    a {
+      color: white !important;
+    }
+
+    &:hover:not(.MenuSiteCours_Outils_Zone) {
+      background: $surface-selected !important;
+    }
+  }
+
+  .MenuSiteCours_PlanCoursPDF {
+    border-top-color: $surface-border !important;
+  }
+
+  .MenuSiteCours_Outils_Zone {
+    border: none !important;
+
+    div {
+      border: none !important;
+
+      a:before {
+        color: $on-surface !important;
+      }
+    }
+  }
+
+  .MenuSiteCours_Outils_Zone > [class*="MenuSiteCours_Outils_Item_"]:hover {
+    background: $surface-selected !important;
+  }
+}
+
+.Ligne_OEXT:nth-child(n+3) .MenuSiteCours_Item:after {
+  border-color: $surface-border !important;
+}
+
+.ZoneContenuSiteCours {
+  .ena_contenuSite {
+    .ena_bloc {
+      background: $surface !important;
+      border: none !important;
+
+      .ena_bloc_header, .ena_bloc_content {
+        color: $on-surface !important;
+        border-bottom-color: $surface-border !important;
+      }
+    }
+  }
+}
+
+.Evaluations_BoiteDepots_DeposerTravail {
+  background: none !important;
+}
+
+svg text {
+  fill: white !important;
+}
+
+.af_dvt-graph {
+  svg {
+    rect:nth-of-type(1), rect:nth-of-type(2) {
+      fill: $background !important;
+    }
+  }
+}
+
+.MenuListeCours .af_selectOneChoice_content {
+  border-color: $surface-border !important;
+}
+.MenuEnvoiCourriel_Lien a, .MenuEnvoiCourriel_Lien a:visited {
+  color: $on-surface !important;
+}
+.MenuEnvoiCourriel_Lien a:hover, .MenuEnvoiCourriel_Lien a:visited:hover {
+  background: $surface-hover !important;
+  color: $on-surface !important;
+}
+
+.tableClasseVirtuelleConnecter {
+  background: $surface !important;
+  border-color: $surface-border !important;
+}
+
+.headerClasseVirtuelleConnecter {
+  background: $surface !important;
+  color: $on-surface !important;
+}

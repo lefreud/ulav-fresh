@@ -1,0 +1,10 @@
+@import "../dark-theme";
+
+.m-panel {
+  background: $surface !important;
+  color: $on-surface !important;
+
+  &.m--has-border {
+    border-color: $surface-border !important;
+  }
+}

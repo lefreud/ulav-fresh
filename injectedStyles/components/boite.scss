@@ -1,0 +1,9 @@
+@import "../dark-theme";
+
+.mpo-boite, .mpo-boite-onglet {
+  background: $surface !important;
+  border: none !important;
+  .mpo-boite-titre {
+    color: $on-surface !important;
+  }
+}

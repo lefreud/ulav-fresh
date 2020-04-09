@@ -1,0 +1,10 @@
+@import "../dark-theme";
+
+.mpo-chargement-page-racine {
+  .mpo-action-en-cours-titre, .mpo-action-en-cours-description {
+    color: $on-background !important;
+  }
+}
+.shell-chargement .m-spinner__description {
+  color: $on-background !important;
+}

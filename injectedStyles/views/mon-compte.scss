@@ -1,0 +1,15 @@
+@import "../dark-theme";
+
+.mpo-moncompte-profil-entete {
+  border-color: $background-border !important;
+}
+
+.mpo-liste-preferences-notification-categorie .categorie-titre {
+  background: $surface !important;
+}
+.mpo-declaration-opposition__entete {
+  color: $on-background !important;
+}
+.mpo-declaration-opposition__tableau__corps__ligne:nth-child(2n) .mpo-declaration-opposition__tableau__corps__ligne__cellule {
+  background: none !important;
+}

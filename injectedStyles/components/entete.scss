@@ -1,0 +1,21 @@
+@import "../dark-theme";
+
+.mpo-entete {
+  .mpo-entete-corps {
+    background: $surface !important;
+    .mpo-hamburger {
+      border-bottom: none !important;
+      background: $surface !important;
+    }
+    .mpo-marque-titre {
+      * {
+        color: $on-surface ;
+      }
+    }
+
+  }
+}
+
+.mpo-page-entete, .m-template__header-container {
+  background: $surface !important;
+}

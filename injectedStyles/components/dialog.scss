@@ -1,0 +1,14 @@
+@import "../dark-theme";
+
+.af_dialog.af_dialog, .af_panelWindow.af_panelWindow, .AFPopupSelector.AFPopupSelector {
+  background: $surface !important;
+}
+
+.modal-content {
+  background: $surface !important;
+}
+
+.AFPopupSelectorContent {
+  background: $surface !important;
+  border-color: $surface-border !important;
+}

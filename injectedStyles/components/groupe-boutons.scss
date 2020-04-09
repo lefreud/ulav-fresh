@@ -1,0 +1,5 @@
+@import "../dark-theme";
+
+.mpo-groupe-boutons-minimalistes button.active, .mpo-groupe-boutons-minimalistes button:focus {
+  color: $on-surface !important;
+}

@@ -1,0 +1,22 @@
+@import "../dark-theme";
+
+.mpo-fenetre-apercu {
+  background: $surface !important;
+}
+.mpo-fenetre-apercu-pied {
+  background: $surface !important;
+  border-color: $surface-border !important;
+  &:before {
+    background: none !important;
+  }
+}
+.mpo-fenetre-profil-elem {
+  color: $on-surface !important;
+  border-color: $surface-border !important;
+  &:focus, &:hover {
+    background: $surface-hover !important;
+  }
+}
+.mpo-fenetre-apercu-contenu {
+  border-color: $surface-border !important;
+}

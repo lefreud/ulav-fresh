@@ -1,0 +1,9 @@
+@import "../dark-theme";
+@import "../templates/examens-travaux";
+@import "../templates/liste-cours";
+@import "../templates/messages-importants";
+
+.mpo-page-gabarit-2 {
+  color: $on-surface !important;
+  background: $background !important;
+}

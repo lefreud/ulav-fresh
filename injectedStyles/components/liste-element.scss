@@ -1,0 +1,17 @@
+@import "../dark-theme";
+
+.mpo-liste-entete {
+  background: $surface !important;
+}
+.mpo-liste {
+  background: $surface !important;
+}
+.det-liste-entete {
+  background: $surface !important;
+}
+.mpo-liste-base-elem {
+  border-color: $surface-border !important;
+}
+.mpo-liste-base-elem-entete {
+  color: $on-surface !important;
+}

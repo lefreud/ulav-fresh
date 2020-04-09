@@ -1,0 +1,9 @@
+@import "../dark-theme";
+
+.mpo-champ-champ {
+  border-color: $surface-border !important;
+  background: $surface !important;
+}
+input[type="text"], input[type="email"], input[type="number"] {
+  border-color: $surface-border !important;
+}

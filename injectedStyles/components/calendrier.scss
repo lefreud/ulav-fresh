@@ -1,0 +1,70 @@
+@import "../dark-theme";
+
+.mpo-accordeon-calendriers {
+  h2 {
+    color: $on-surface !important;
+  }
+}
+
+.mpo-calendriers-corps-principale {
+  background: $surface !important;
+  .mpo-calendrier {
+    .mpo-calendrier-date {
+      color: $on-surface !important;
+    }
+    .fc .fc-head-container {
+      background: $surface !important;
+    }
+    .fc .fc-time span {
+      background: $surface !important;
+    }
+    .fc-bg {
+      background: $surface !important;
+      .fc-today {
+        background: $background !important;
+      }
+    }
+    .fc-nonbusiness {
+      background: $surface !important;
+    }
+  }
+  .mpo-calendriers-legende {
+    background: $surface !important;
+    .paragraphe-base {
+      color: $on-surface !important;
+    }
+    .mpo-calendriers-legende-btn-ouvert-fermer {
+      background: $surface !important;
+    }
+    .mpo-calendriers-legende-entete {
+      background: $surface !important;
+      h2 {
+        color: $on-surface !important;
+      }
+    }
+    .mpo-calendriers-legende-corps {
+      .mpo-calendriers-interrupteur-conteneur {
+        background: $surface !important;
+      }
+      .mpo-calendriers-legende-scroll {
+        ul.mpo-liste-checkbox {
+          li {
+            background: $surface !important;
+          }
+        }
+        .mpo-accordeon-allege {
+          .is-expanded {
+            background: $surface !important;
+          }
+        }
+      }
+    }
+  }
+}
+.fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+  border-color: $surface-border !important;
+}
+
+.fc-event.fc-event {
+  border-color: $surface-border !important;
+}

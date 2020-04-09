@@ -1,0 +1,53 @@
+@import "../dark-theme";
+
+.MaReussite_Intro {
+  background: $surface !important;
+}
+
+.MaReussite_CadreActif .MaReussite_Module {
+  background: $surface !important;
+  border-color: $surface-border !important;
+}
+
+body .DetailDesIndicateurs_Tableau .ul_column_header-cell,
+body .af_table_data-row.p_AFToolMenuOpened > .af_column_data-cell,
+body .af_table_data-row.p_AFToolMenuOpened > .af_column_banded-data-cell {
+  background: $surface !important;
+}
+
+body .DetailDesIndicateurs_Tableau .ul_table_body-cell {
+  background: $surface !important;
+}
+
+.MaReussite_Module_MesResultats_Tableau_Moyenne {
+  background: $surface !important;
+}
+
+.MaReussite_MiniTest {
+  background: $surface !important;
+}
+
+.MaReussite_MiniTest__Bouton {
+  background: $surface !important;
+}
+
+.MaReussite_Module {
+  background: none !important;
+}
+
+body .lienDesactive, body .MaReussite_ModuleIcone a, body .MaReussite_ModuleIcone a:hover {
+  color: $on-background !important;
+}
+
+.MaReussite_Module__Corps.ul_div span {
+  color: $on-background !important;
+}
+
+.MaReussite_ModuleAide {
+  background: $surface !important;
+  border-color: $surface-border !important;
+}
+
+.MaReussite_ModuleAide__TitreDeSection {
+  color: $on-surface !important;
+}

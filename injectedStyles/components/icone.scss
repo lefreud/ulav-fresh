@@ -1,0 +1,8 @@
+@import "../dark-theme";
+
+.mpo-icone-cliquable.mpo-effet-touch, .mpo-icone-cliquable:active {
+  background: $surface-selected !important;
+}
+.mpo-pastille-entete>.mpo-icone-cliquable.mpo-selecteur-infobulle-ouvert .remplissage-icone, .mpo-pastille-entete>.mpo-icone-cliquable:hover .remplissage-icone {
+  fill: $on-surface !important;
+}

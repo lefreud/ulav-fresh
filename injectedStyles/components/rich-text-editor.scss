@@ -1,0 +1,9 @@
+@import "../dark-theme";
+
+.cke_reset {
+  // background: $surface !important;
+  border-color: $surface-border !important;
+}
+.cke_editable {
+  color: $on-surface !important;
+}

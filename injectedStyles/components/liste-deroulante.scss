@@ -1,0 +1,21 @@
+@import "../dark-theme";
+
+.mpo-deroulant-bouton, a.mpo-deroulant-bouton {
+  background: $background !important;
+  color: $on-background !important;
+  border: none !important;
+}
+
+.mpo-liste-deroulante .mpo-deroulant-texte::after {
+  background: none !important;
+}
+
+a.mpo-combo-deroulant, a.mpo-deroulant-elem {
+  background: $surface !important;
+  color: $on-surface !important;
+  border-color: $surface-border !important;
+}
+
+a.mpo-combo-deroulant:active, a.mpo-combo-deroulant:focus, a.mpo-combo-deroulant:hover, a.mpo-deroulant-elem:active, a.mpo-deroulant-elem:focus, a.mpo-deroulant-elem:hover {
+  background: $surface-selected !important;
+}

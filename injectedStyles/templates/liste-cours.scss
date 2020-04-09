@@ -1,0 +1,29 @@
+@import "../dark-theme.css";
+
+.mpo-cours-suivis {
+  th {
+    border-bottom: none !important;
+    color: $on-surface !important;
+  }
+}
+.mpo-cours-non-suivis {
+  .mpo-tableau-liste-cours-titre {
+    color: $on-surface !important;
+  }
+  .mpo-tableau-liste-cours {
+    th {
+      border-bottom: none !important;
+      color: $on-surface !important;
+    }
+  }
+}
+
+.mpo-tableau-liste-cours {
+  background: transparent !important;
+}
+.mpo-liste-cours-avec-jonction .mpo-jonction {
+  background: transparent !important;
+  &::before {
+
+  }
+}

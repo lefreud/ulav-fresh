@@ -1,0 +1,36 @@
+@import "../dark-theme";
+
+.nav-tabs {
+  background: none !important;
+  border-color: $background-border !important;
+
+  .nav-item {
+    a {
+      border: none !important;
+      color: $on-surface !important;
+    }
+    &:not(active) {
+      a {
+        background: $surface !important;
+      }
+    }
+    &.active {
+      a {
+        background: $surface-selected !important;
+      }
+    }
+  }
+}
+.ena_editablepanelTabbed_no-overflow .ena_editablepanelTabbed_tab.p_AFSelected:first-child, .ul_panelTabbed_no-overflow .ul_panelTabbed_tab.p_AFSelected:first-child, .ul_customizablePanelTabbed_header-level1 .ul_customizablePanelTabbed_no-overflow .ul_customizablePanelTabbed_tab.p_AFSelected:first-child, .ul_customizablePanelTabbed_header-level1 .ul_customizablePanelTabbed_tab.p_AFSelected + .ul_customizablePanelTabbed_add-tab {
+  border-left: none !important;
+}
+.ena_editablepanelTabbed_tab, .ul_panelTabbed_tab {
+  background: $surface !important;
+}
+.ena_editablepanelTabbed_tab.p_AFSelected, .ul_panelTabbed_tab.p_AFSelected, .ul_customizablePanelTabbed_header-level1 .ul_customizablePanelTabbed_tab.p_AFSelected {
+  background: $surface-selected !important;
+}
+
+.ena_editablepanelTabbed_tab-text, .ena_editablepanelTabbed_tab-link, .ena_editablepanelTabbed_tab-link:visited, .ena_editablepanelTabbed_tab-link:hover, .ena_editablepanelTabbed_tab-link:focus, .ena_editablepanelTabbed_tab-link:active, .ul_panelTabbed_tab-text, .ul_panelTabbed_tab-link, .ul_panelTabbed_tab-link:visited, .ul_panelTabbed_tab-link:hover, .ul_panelTabbed_tab-link:focus, .ul_panelTabbed_tab-link:active, .ul_panelTabbed_tab-content .af_commandNavigationItem, .ul_panelTabbed_tab-content .af_commandNavigationItem:visited, .ul_panelTabbed_tab-content .af_commandNavigationItem:hover, .ul_panelTabbed_tab-content .af_commandNavigationItem:focus, .ul_panelTabbed_tab-content .af_commandNavigationItem:active, .ul_customizablePanelTabbed_tab-link:link, .ul_customizablePanelTabbed_tab-link:visited, .ul_customizablePanelTabbed_tab-link:hover, .ul_customizablePanelTabbed_tab-link:focus, .ul_customizablePanelTabbed_tab-link:active {
+  color: $on-surface !important;
+}

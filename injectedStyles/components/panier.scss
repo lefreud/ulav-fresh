@@ -1,0 +1,13 @@
+@import "../dark-theme";
+
+.mpo-panier {
+  background: $surface !important;
+}
+
+.mpo-panier-entete {
+  border-color: $surface-border !important;
+}
+.mpo-panier-pied:before {
+  background: none !important;
+}
+

@@ -1,0 +1,22 @@
+@import "../dark-theme";
+
+
+
+.QuestionnaireExecution_Conteneur {
+  background: $surface !important;
+}
+
+.QuestionnaireExecution_Timer {
+  background: none !important;
+  border-color: $surface-border !important;
+  padding: 3px !important;
+  color: $on-surface !important;
+}
+
+.QuestionnaireExecution_HeaderNiv2 {
+  background: $surface !important;
+}
+
+.QuestionnaireExecution_TitreQuestion {
+  background: $surface !important;
+}

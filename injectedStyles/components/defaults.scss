@@ -1,0 +1,97 @@
+@import "../dark-theme";
+
+body, .AvecCadre, .mpo-cadre, .mpo-page-gabarit-2 {
+  background: $background !important;
+}
+
+.af_calendar_month-grid-cell.p_AFToday .af_calendar_month-grid-cell-header-day-link, .af_calendar_month-grid-cell.p_AFActiveDay .af_calendar_month-grid-cell-header-day-link, .af_calendar_week-header-cell.p_AFToday .af_calendar_week-header-day-link, .af_calendar_week-header-cell.p_AFActiveDay .af_calendar_week-header-day-link, a.HyperlienCouleurTexte, a.HyperlienCouleurTexte:visited, .ul_toolMenu:hover:before, .af_train_stop-link.p_AFSelected:hover, .ContenuRiche_InfoSecondaire.CouleurStandard, .Message_Erreur .af_dialog_close-icon-style:before, .Message_Erreur .af_panelWindow_close-icon-style:before, .Message_Autre .af_dialog_close-icon-style:before, .Message_Autre .af_panelWindow_close-icon-style:before, .Table_Resultats_FicheEval .NoteEnseignant_Autre .af_column_sort-ascending-icon-style:before, .Table_Resultats_FicheEval .NoteEnseignant_Autre .af_column_sort-descending-icon-style:before, .Table_Resultats_FicheEval .NoteEnseignant_Total .af_column_sort-ascending-icon-style:before, .Table_Resultats_FicheEval .NoteEnseignant_Total .af_column_sort-descending-icon-style:before, .Table_Resultats_FicheEval .NoteEnseignant_Criteres .af_column_sort-ascending-icon-style:before, .Table_Resultats_FicheEval .NoteEnseignant_Criteres .af_column_sort-descending-icon-style:before, .Tableau_Entete_Cellule_Alt.Tableau_Entete_Cellule_Alt .af_column_sort-ascending-icon-style:before, .Tableau_Entete_Cellule_Alt.Tableau_Entete_Cellule_Alt .af_column_sort-descending-icon-style:before, .af_calendar_month-grid-cell.p_AFToday.p_AFActiveDay .af_calendar_month-grid-cell-header-day-link.p_AFToday, .af_calendar_week-header-cell .af_calendar_week-header-day-link, .MaReussite_OngletEnEntete .af_commandLink, .MaReussite_OngletEnEntete .af_commandLink:visited, .MaReussite_Module_MesResultats__NoteEtCote .ena_noteCumulee_libelle a:visited, .ul_customizablePanelTabbed_tab-menu:focus:before, .ul_customizablePanelTabbed_tab-menu:hover:before, .ul_customizablePanelTabbed_tab-menu:active:before, .ena_editablepanelTabbed_show-content-link:hover:before, .ul_panelTabbed_show-content-link:hover:before, .Module_TableDesMatiere_ListItem.selected a, .Module_TableDesMatiere_ListItem.selected a:visited, .MatDid_Disponibilites .af_panelWindow_close-icon-style:before, .Arborescence_Regroupement .ul_toolMenu:hover:before, .Resultats_Televerser .CelluleEdition, .RechercheQuestionnaireExistant_Type select, .RechercheQuestionnaireExistant_Type_Disabled option, .QuestionnaireExecution_HeaderNiv2_Aide .CompteurQuestion .ProgessBar .ProgessBar_Content:hover, #lienListeCoursId .af_link_text, #lienListeCoursId:visited, #lienListeCoursId:visited .af_link_text, #lienListeCoursId:hover:before, #lienListeCoursId:hover .af_link_text {
+color: $on-surface !important;
+}
+
+.mpo-titre-grand, .mpo-titre-moyen, .mpo-titre-normal, .mpo-titre-petit, .mpo-titre-tres-grand, .mpo-titre-tres-petit, h1, h2, h3, h4, h5, h6 {
+  color: $on-background !important;
+}
+.AvecCadre, .mpo-cadre, .mpo-page-gabarit-2 {
+  color: $on-background !important;
+}
+
+.Message_Erreur .af_dialog_header, .Message_Erreur .af_panelWindow_header, .Message_Autre .af_dialog_header, .Message_Autre .af_panelWindow_header, .TableauMPO_SansTitre .ul_column_header-cell, .TableauMPO_Leger .ul_column_header-cell {
+  background: $surface !important;
+  color: $on-surface !important;
+}
+
+.af_selectManyChoice_item.p_AFSelected, .JournalDeSuivi .JournalDeSuivi__Pied, .Site_Fenetre_RechercheDocumentsElectroniques .TableauDeBord_DetailEval .ul_table_body-row.impair, .LigneEntete.LigneEntete, .Tableau_questionnaires.TableauAvecRegroupements .ul_table_body-row, .Tableau_questionnaires .ul_table_body-detail-glyph, .Tableau_questionnaires.TableauAvecRegroupements.Grille .regroupe.regroupe, .Tableau_questionnaires.TableauAvecRegroupements.Grille .regroupe ~ .ul_table_body-cell, .ZoneBtnImprimer .BtnSecondaire, .ena_mooc_document, .mooc-boite-secondaire.mooc-boite-secondaire, .mooc-accueil-inscription .mooc-accoueil-site_mooc, .mooc-carte__corps, .ul_table_body-row.p_AFEven, .TableauAvecRegroupements .ul_column_header-cell, .TableauAvecRegroupements .regroupement, .TableauAvecRegroupements.SansRegroupement .ul_table_body-row.ul_table_body-row, .ZoneRetroAction.Incorrect td, .ListeChoixMultiple_RetroAction.Incorrect td, .Pair, .AF_TableauSimple .af_column_data-cell, .AF_TableauSimple .af_column_banded-data-cell, .Tableau_AvecDetails .ul_column_header-cell, .Grille .af_table_data-row[_afrrk$="1"] + .af_table_data-row .DetailDesIndicateurs_Tableau, .Grille .af_table_data-row[_afrrk$="3"] + .af_table_data-row .DetailDesIndicateurs_Tableau, .Grille .af_table_data-row[_afrrk$="5"] + .af_table_data-row .DetailDesIndicateurs_Tableau, .Grille .af_table_data-row[_afrrk$="7"] + .af_table_data-row .DetailDesIndicateurs_Tableau, .Grille .af_table_data-row[_afrrk$="9"] + .af_table_data-row .DetailDesIndicateurs_Tableau {
+  background: none !important;
+}
+.tele-dialog-erreur-entete, .InfoGen_SoutientTechnique td:first-child, .ul_table_body-cell:first-child {
+  color: $on-background !important;
+}
+.SousTitre_Niv1 {
+  color: $on-background !important;
+}
+.SousTitreLeger, .af_calendar_header-all-day-container.af_calendar_header-all-day-container, .JournalDeSuivi .JournalDeSuivi__Entete, .InfoGen_CoordonneesDispos .ListeReactive_Item:hover, .InfoGen_CoordonneesDispos .ListeReactive_Item.p_AFToolMenuOpened, .Forums_Complementaires .ListeReactive_Item:hover, .Forums_Complementaires .ListeReactive_Item.p_AFToolMenuOpened, .Tableau_ListeDesModules .ul_table_body-row.regroupement.regroupement-first, .ZoneAvecFond.gris, .Arbre_TravauxCorriges .af_table_data-row:not([_afrap]), .Tableau_questionnaires.TableauAvecRegroupements.Grille .ul_table_body-cell, .ItemsQuestionnaire_Desciption_ConteneurGroupe .af_showDetail_table > tbody > tr:first-child, .StatistiqueDuSite_TableauSemaine .af_table_data-row .af_column_banded-data-cell, .TableauAvecRegroupements .regroupement-first.regroupement-first, .ul_table .regroupement-first.regroupement-first, .Impair, .Grille .af_table_data-row[_afrrk$="1"] .af_column_detail-cell, .Grille .af_table_data-row[_afrrk$="3"] .af_column_detail-cell, .Grille .af_table_data-row[_afrrk$="5"] .af_column_detail-cell, .Grille .af_table_data-row[_afrrk$="7"] .af_column_detail-cell, .Grille .af_table_data-row[_afrrk$="9"] .af_column_detail-cell, .Grille .af_table_data-row[_afrrk$="1"] + .af_table_data-row .af_table_detail-area-cell, .Grille .af_table_data-row[_afrrk$="3"] + .af_table_data-row .af_table_detail-area-cell, .Grille .af_table_data-row[_afrrk$="5"] + .af_table_data-row .af_table_detail-area-cell, .Grille .af_table_data-row[_afrrk$="7"] + .af_table_data-row .af_table_detail-area-cell, .Grille .af_table_data-row[_afrrk$="9"] + .af_table_data-row .af_table_detail-area-cell, .Grille .ul_table_body-row .ul_table_body-cell.pair, .Grille.Alterne .ul_table_body-row.p_AFEven .ul_table_body-cell, .TableauDesAccesDetaillesParEtudiant .af_table_data-row .af_column_banded-data-cell {
+  background: none !important;
+}
+.Tableau_Evaluations .regroupement-first .ul_table_body-cell.p_AFFirstElement:before, .Tableau_ListeDesModules .TableauAvecRegroupements .regroupement-first .ul_table_body-cell:first-child:before, .ul_table .regroupement-first .ul_table_body-cell:first-child:before {
+  background: none !important;
+}
+
+.mpo-titre-tres-grand, h1 {
+  border-bottom-color: $background-border !important;
+}
+
+input[type=text], input[type=email], input[type=number], select, textarea {
+  color: $on-background !important;
+  background: transparent !important;
+}
+
+.mpo-liste-checkbox li input~label .input, .mpo-liste-checkbox-survol li input~label .input, .mpo-liste-checkbox-survol-pale li input~label .input, .mpo-liste-radio li input~label .input, .mpo-liste-radio-detaille li input~label .input, .mpo-liste-radio-survol li input~label .input, .mpo-liste-radio-survol-pale li input~label .input  {
+  border-color: $on-background !important;
+  color: $on-background !important;
+}
+.af_train_stop-link.p_AFSelected, .ena_editablepanelTabbed_tab.p_AFSelected .ena_editablepanelTabbed_tab-link, .ena_editablepanelTabbed_tab.p_AFSelected .ena_editablepanelTabbed_tab-text, .ul_panelTabbed_tab.p_AFSelected .ul_panelTabbed_tab-link, .ul_panelTabbed_tab.p_AFSelected .ul_panelTabbed_tab-text, .ul_panelTabbed_tab.p_AFSelected .af_commandNavigationItem, .ul_customizablePanelTabbed_tab.p_AFSelected .ul_customizablePanelTabbed_tab-link, .ul_customizablePanelTabbed_tab.p_AFSelected .ul_customizablePanelTabbed_tab-text {
+  color: $on-background !important;
+}
+
+label {
+  color: $on-background !important;
+}
+
+.mpo-quest-ce-que-cest_, .mpo-attest-quest-ce-que-cest, .mpo-quest-ce-que-cest-lpu,
+.mpo-quest-ce-que-cest-impression{
+  border-color: $background-border !important;
+}
+
+.mpo-lpu__information {
+  border-color: $surface !important;
+  background: $surface !important;
+}
+
+.af_menu_submenu:nth-child(n+2) > td, .af_commandMenuItem:nth-child(n+2) > td, .af_menu_separator-row > td, .RechercheAvancee_Pied, .AR_FicheEtudiant_ListeCours_Detail, .AideReussite_FicheEtudiant_ListeDeCours .AR_FicheEtudiant_ListeCours_Detail .MiseEnPageTableau.Stretch, .BaremeTableWrap tr:nth-child(n+2) td, .ul_richTextEditor_content tr:nth-child(n+2) td, .ul_table_body-row:nth-child(n+2) .ul_table_body-cell, .MenuEnvoiCourriel_Lien + .MenuEnvoiCourriel_Lien, .Tableau_AvecDetails .ul_table_body-row.p_AFFirstElement .ul_table_body-cell, .Tableau_AvecDetails .ul_table_body-row.p_AFFirstElement .ul_table_body-detail-glyph {
+  border-color: $background-border !important;
+}
+
+.TableauMPO_Fonce .ul_column_footer-cell, .TableauMPO_Fonce .af_column_column-footer-cell, .TableauMPO .ul_column_footer-cell, .TableauMPO .af_column_column-footer-cell, .TableauMPO_Leger .ul_column_footer-cell, .TableauMPO_Leger .af_column_column-footer-cell, .TableauMPO_SansTitre .ul_column_footer-cell, .TableauMPO_SansTitre .af_column_column-footer-cell {
+  background: none !important;
+  border-color: $background-border !important;
+}
+
+@media (min-width: 768px) {
+  .mpo-formulaire-checkbox-survol-pale input ~ label:hover, .mpo-formulaire-radio-survol-pale input ~ label:hover, .mpo-liste-checkbox-survol-pale li input ~ label:hover, .mpo-liste-radio-survol-pale li input ~ label:hover {
+    background: $surface-selected !important;
+  }
+}
+input[type=file] {
+  background: $surface !important;
+}
+
+.framing-table, .buttons-table, .framing-div {
+  background: $surface !important;
+  border-color: $surface-border !important;
+}
+.Site_Fenetre_EnvoiCourriel_ModifierDestinataire .af_table .af_column_data-cell, .Site_Fenetre_EnvoiCourriel_ModifierDestinataire .af_table .af_column_banded-data-cell, .Site_Fenetre_EnvoiCourriel_ModifierDestinataire .af_table .af_table_data-row:hover .af_column_data-cell, .Site_Fenetre_EnvoiCourriel_ModifierDestinataire .af_table .af_table_data-row:hover .af_column_banded-data-cell {
+  background: $surface !important;
+}
+.BlocAudioVideo .ItemEnCours, .Calendrier .af_calendar_month-header-cell.p_AFToday {
+  background: $surface-selected !important;
+}

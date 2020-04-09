@@ -1,0 +1,11 @@
+@import "../dark-theme";
+
+.FenetreAide.af_panelWindow {
+  background-color: #001426 !important;
+}
+.FondInformation, .FenetreAide .af_panelWindow_header, .FenetreAide.NoteWindow .ul_noteWindow_header, .tele-explorateur-fichiers .tele-element-fichier:hover, .MaReussite_Module_MesResultats_Tableau_Moyenne .ul_table_body-cell, .MaReussite_Module_MesResultats_Tableau_Moyenne .ul_table_body-cell:hover, .LigneEntete.LigneEntete.Focus, .LigneEnonce.LigneEnonce.Focus, .ul_table.p_AFSelectionEnabled .ul_table_body-row:hover .ul_table_body-cell.ul_table_body-cell, .ul_table.p_AFSelectionEnabled .ul_table_body-row.p_AFSelected .ul_table_body-cell.ul_table_body-cell {
+  background: none !important;
+}
+.FenetreAide .af_panelWindow_title {
+  color: $on-surface !important;
+}
