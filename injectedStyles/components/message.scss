@@ -1,7 +1,8 @@
-@import "../dark-theme";
+@import "../dark-theme-variables";
 
 .mpo-message-corps {
   background: $surface !important;
+  color: $on-surface !important;
   .mpo-message-contenu {
     .mpo-message-texte {
       color: $on-surface !important;
@@ -14,6 +15,10 @@
 
 .mpo-message-information.mpo-message-avec-icone::after {
   background-color: $info-background !important;
+}
+
+.mpo-message-avertissement {
+  background: $warning-background !important;
 }
 
 .Information_Simple {

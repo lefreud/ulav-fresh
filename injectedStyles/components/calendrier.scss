@@ -1,4 +1,4 @@
-@import "../dark-theme";
+@import "../dark-theme-variables";
 
 .mpo-accordeon-calendriers {
   h2 {
@@ -67,4 +67,19 @@
 
 .fc-event.fc-event {
   border-color: $surface-border !important;
+}
+
+.fc-more-popover, .mpo-calendrier-infobulle-conteneur-principale {
+  background: $surface !important;
+  border-color: $surface-border !important;
+  color: $on-surface !important;
+}
+
+.mpo-calendrier-infobulle-conteneur-principale::after {
+  background: none !important;
+}
+@media (min-width: 768px) {
+  .mpo-fenetre-impression.mpo-fenetre-impression .modal-body {
+    background: $surface !important;
+  }
 }

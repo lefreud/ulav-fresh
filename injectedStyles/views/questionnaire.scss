@@ -1,5 +1,4 @@
-@import "../dark-theme";
-
+@import "../dark-theme-variables";
 
 
 .QuestionnaireExecution_Conteneur {
@@ -20,3 +19,48 @@
 .QuestionnaireExecution_TitreQuestion {
   background: $surface !important;
 }
+
+.QuestionnaireExecution_Content_ZoneResultats {
+  border-color: $surface-border !important;
+}
+
+.QuestionnaireExecution_Content_ZoneResultats_Haut, .QuestionnaireExecution_Content_ZoneResultats_Bas {
+  background: $surface !important;
+}
+
+.Outils_Page_QuestionnaireExecution .QuestionnaireCopieCorrigee_Header {
+  background: $surface !important;
+}
+
+.Outils_Page_QuestionnaireExecution .QuestionnaireCopieCorrigee_MainContent, .Outils_Page_QuestionnaireExecution .Groupe_BoutonsPiedFenetre {
+  background: $surface !important;
+}
+
+.CopieCorrigee_ZoneCorrection {
+  background: $surface !important;
+  border-color: $surface-border !important;
+}
+
+.CopieCorrigee_ZoneCorrection_Content {
+  background: $surface !important;
+  border-color: $surface-border !important;
+}
+
+.QuestionnaireExecution_ZoneQuestion.Corrigee.avecPointage .QuestionnaireExecution_ZoneQuestion_Titre .MiseEnPageTableau_QuestionnaireExecution_TitreQuestion, .QuestionnaireExecution_ZoneQuestion.Corrigee.sansPointage .QuestionnaireExecution_ZoneQuestion_Titre .MiseEnPageTableau_QuestionnaireExecution_TitreQuestion {
+  background: $background !important;
+}
+
+.ZoneCorrection_Pointage_Hack {
+  background: $surface !important;
+  border-color: $surface-border !important;
+}
+
+.CopieCorrigee_ZoneTentative_Item {
+  background: $surface !important;
+  border-color: $surface-border !important;
+
+  &.active {
+    background: $surface-selected !important;
+  }
+}
+

@@ -1,4 +1,4 @@
-@import "../dark-theme";
+@import "../dark-theme-variables";
 
 .af_dialog.af_dialog, .af_panelWindow.af_panelWindow, .AFPopupSelector.AFPopupSelector {
   background: $surface !important;
@@ -11,4 +11,8 @@
 .AFPopupSelectorContent {
   background: $surface !important;
   border-color: $surface-border !important;
+}
+
+.mpo-infobulle-bouton-fermer, .mpo-infobulle-bouton-fermer:visited {
+  color: $on-surface !important;
 }

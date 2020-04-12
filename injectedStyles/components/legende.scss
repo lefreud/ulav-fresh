@@ -1,4 +1,4 @@
-@import "../dark-theme";
+@import "../dark-theme-variables";
 
 .mpo-legende {
   background: $surface !important;
@@ -6,5 +6,9 @@
 }
 
 .mpo-legende-titre {
+  color: $on-surface !important;
+}
+
+legend {
   color: $on-surface !important;
 }

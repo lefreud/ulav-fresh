@@ -1,6 +1,11 @@
-@import "../dark-theme";
+@import "../dark-theme-variables";
 
 body, .AvecCadre, .mpo-cadre, .mpo-page-gabarit-2 {
+  background: $background !important;
+}
+
+html body {
+  color: $on-surface !important;
   background: $background !important;
 }
 
