@@ -1,0 +1,41 @@
+@import "../libraries/materialize/sass/materialize";
+
+.popup-container {
+  min-width: 200px;
+  min-height: 100px;
+}
+
+.branding-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .name {
+    font-size: 14pt;
+    margin: 5px 10px 5px 5px;
+  }
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+
+  .name {
+    font-size: 12pt;
+    margin-bottom: 10px;
+  }
+  .switch {
+    margin-bottom: 10px;
+  }
+}
