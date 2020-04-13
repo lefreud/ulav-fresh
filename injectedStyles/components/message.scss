@@ -21,12 +21,8 @@
   background: $warning-background !important;
 }
 
-.Information_Simple {
-  background: $surface !important;
-}
-
-.Information_Simple:before {
-  background-color: $info-background !important;
+.mpo-message-avertissement.mpo-message-avec-icone::after {
+  background: $warning-background !important;
 }
 
 .Avertissement:before, .MessageAvertissement_Content:before {
@@ -36,6 +32,15 @@
 .MessageAvertissement_TexteSeulement {
   background: none !important;
 }
+
+.Information_Simple {
+  background: $surface !important;
+}
+
+.Information_Simple:before {
+  background-color: $info-background !important;
+}
+
 
 .m-message__wrap {
   background: $surface !important;

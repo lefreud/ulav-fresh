@@ -1,0 +1,8 @@
+@import "../dark-theme-variables";
+
+.m-radio.m--is-disabled .m-radio__label {
+  background: none !important;
+}
+.m-radio:not(.m--is-disabled):not(.m--is-readonly) .m-radio__label {
+  color: $on-surface !important;
+}

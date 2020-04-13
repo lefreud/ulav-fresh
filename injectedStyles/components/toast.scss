@@ -1,0 +1,5 @@
+@import "../dark-theme-variables";
+
+.m-toast.m--is-state-confirmation .m-toast__wrap {
+  background: $success-background !important;
+}

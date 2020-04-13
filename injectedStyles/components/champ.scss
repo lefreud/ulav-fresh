@@ -7,3 +7,9 @@
 input[type="text"], input[type="email"], input[type="number"] {
   border-color: $surface-border !important;
 }
+.m-input-style.m--is-label-up .m-input-style__text {
+  background: $surface !important;
+}
+.m-input-style__input, .m-input-style input, .m-input-style textarea {
+  color: $on-surface !important;
+}

@@ -3,3 +3,16 @@
 .mpo-accordeon-entete {
   background: $surface !important;
 }
+
+.m-accordion.m--is-default {
+  .m-accordion__header {
+    background: $surface !important;
+    border-color: $surface-border !important;
+  }
+
+  .m-accordion__body-wrap {
+    background: $surface !important;
+    color: $on-surface !important;
+    border-color: $surface-border !important;
+  }
+}
