@@ -1,0 +1,34 @@
+{
+  "name": "ulav_fresh_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lefreud/ulav-fresh.git"
+  },
+  "author": "Frédéric Fortier-Chouinard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lefreud/ulav-fresh/issues"
+  },
+  "homepage": "https://github.com/lefreud/ulav-fresh#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.2",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.4",
+    "to-string-loader": "^1.1.6",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "glob": "latest"
+  }
+}

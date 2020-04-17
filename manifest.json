@@ -1,7 +1,7 @@
 {
   "name": "uLav FRESH",
   "author": "Frédéric Fortier-Chouinard",
-  "version": "0.0.0.3",
+  "version": "1.0.0",
   "description": "La vie est trop courte pour se reconnecter constamment à Mon Portail.",
   "permissions": [
     "alarms",
@@ -21,16 +21,30 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://authentification.ulaval.ca/*"],
-      "js": ["contentScripts/loginScript.js"]
+      "matches": [
+        "https://authentification.ulaval.ca/*"
+      ],
+      "js": [
+        "contentScripts/loginScript.js"
+      ]
     },
     {
-      "matches": ["https://authentification.ulaval.ca/index.html?*erreur*"],
-      "js": ["contentScripts/failedLoginScript.js"]
+      "matches": [
+        "https://authentification.ulaval.ca/index.html?*erreur*"
+      ],
+      "js": [
+        "contentScripts/failedLoginScript.js"
+      ]
     },
     {
-      "matches": ["https://monportail.ulaval.ca/*", "https://*.monportail.ulaval.ca/*"],
-      "js": ["contentScripts/darkThemeInjector.js"],
+      "matches": [
+        "https://monportail.ulaval.ca/*",
+        "https://*.monportail.ulaval.ca/*",
+        "https://authentification.ulaval.ca/*"
+      ],
+      "js": [
+        "contentScripts/darkThemeInjector.js"
+      ],
       "run_at": "document_start"
     }
   ],
