@@ -7,3 +7,24 @@
 .det-section-contenu {
   background: $background !important;
 }
+
+.det-formule-enseignement-pastille {
+  background: $surface-selected !important;
+}
+
+.det-cours {
+  background: $background !important;
+}
+
+.det-cours-tableau td {
+  background: $surface !important;
+}
+
+.mpo-onglets-fonces .mpo-onglet-corps {
+  background: $background !important;
+  color: $on-surface !important;
+}
+
+.det-detail-sections-cours-titre {
+  color: $on-surface !important;
+}

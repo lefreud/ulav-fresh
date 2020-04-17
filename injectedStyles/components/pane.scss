@@ -3,3 +3,7 @@
 v-pane-header, v-pane-content {
   background: none !important;
 }
+
+.mpo-accordeon-regulier v-pane-header {
+  border-color: $surface-border !important;
+}

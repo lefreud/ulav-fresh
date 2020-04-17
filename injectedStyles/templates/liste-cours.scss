@@ -1,4 +1,4 @@
-@import "../dark-theme-variables.css";
+@import "../dark-theme-variables";
 
 .mpo-cours-suivis {
   th {
@@ -26,4 +26,12 @@
   &::before {
 
   }
+}
+
+.mpo-boite-cours-section {
+  border-color: $surface-border !important;
+}
+
+.mpo-boite-cours-resultats-pourcentage::after {
+  background: $surface-border !important;
 }

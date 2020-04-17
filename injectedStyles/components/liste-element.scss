@@ -2,6 +2,7 @@
 
 .mpo-liste-entete {
   background: $surface !important;
+  border-color: $surface-border !important;
 }
 .mpo-liste {
   background: $surface !important;
@@ -12,6 +13,9 @@
 .mpo-liste-base-elem {
   border-color: $surface-border !important;
 }
-.mpo-liste-base-elem-entete {
-  color: $on-surface !important;
+.mpo-liste-entete>:first-child {
+  border-color: $surface-border !important;
+}
+.mpo-liste-elem-avec-fleche:not(:last-child), .mpo-liste-elem:not(:last-child) {
+  border-color: $surface-border !important;
 }

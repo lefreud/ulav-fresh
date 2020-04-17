@@ -3,3 +3,7 @@
 .m-toast.m--is-state-confirmation .m-toast__wrap {
   background: $success-background !important;
 }
+
+.m-toast.m--is-state-error .m-toast__wrap {
+  background: $error-background !important;
+}

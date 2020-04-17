@@ -1,0 +1,29 @@
+@import "../dark-theme-variables";
+
+.m-u--app-body .sau-auth__page {
+  background: $background !important;
+}
+
+.m-u--app-body .sau-auth__corps {
+  background: $surface !important;
+}
+
+.m-u--app-body .sau-textfield__text {
+  background: $surface !important;
+  color: $on-surface !important;
+}
+
+.m-u--app-body .sau-bouton-secondary {
+  background: $surface !important;
+}
+.m-u--app-body .sau-textfield__body, .m-u--app-body .sau-textfield input, .m-u--app-body .sau-textfield textarea {
+  color: $on-surface !important;
+}
+
+.m-u--app-body .sau-message {
+  background: $surface !important;
+}
+
+.m-u--app-body .sau-auth__pied {
+  background: $background !important;
+}

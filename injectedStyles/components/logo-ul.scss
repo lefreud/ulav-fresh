@@ -1,0 +1,9 @@
+@import "../dark-theme-variables";
+
+.gia-logo-ul__svg {
+  filter: invert(0.5) !important;
+}
+
+.m-u--app-body .sau-auth__logo-ul {
+  filter: invert(0.5) !important;
+}
