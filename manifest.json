@@ -1,7 +1,7 @@
 {
   "name": "uLav FRESH",
   "author": "Frédéric Fortier-Chouinard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "La vie est trop courte pour se reconnecter constamment à Mon Portail.",
   "permissions": [
     "alarms",
