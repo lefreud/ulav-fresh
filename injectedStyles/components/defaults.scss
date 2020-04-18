@@ -1,6 +1,10 @@
 @import "../dark-theme-variables";
 
-body:not(.sau-auth.m-u--app-body), .AvecCadre, .mpo-cadre, .mpo-page-gabarit-2 {
+html {
+  background: $background !important;
+}
+
+html body, .AvecCadre, .mpo-cadre, .mpo-page-gabarit-2 {
   background: $background !important;
 }
 
