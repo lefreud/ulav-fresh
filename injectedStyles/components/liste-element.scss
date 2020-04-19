@@ -19,3 +19,11 @@
 .mpo-liste-elem-avec-fleche:not(:last-child), .mpo-liste-elem:not(:last-child) {
   border-color: $surface-border !important;
 }
+
+.mpo-liste-base-elem-entete {
+  color: $on-surface !important;
+}
+
+.mpo-liste-cliquable:active::after {
+  background: $surface-selected !important;
+}

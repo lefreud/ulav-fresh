@@ -7,3 +7,14 @@
   color: $on-surface !important;
   background: $background !important;
 }
+
+.mpo-tableau-liste-cours tr:not(:only-child):not(.dernier):not(.mpo-section-visible) {
+  border-color: $surface-border !important;
+}
+
+.mpo-liste-cours-avec-jonction .mpo-jonction {
+  &:before, &:after {
+    background: $surface-border;
+    border-color: $surface-border;
+  }
+}
