@@ -1,5 +1,9 @@
 @import "../external/materialize/sass/materialize";
 
+body {
+  min-width: 272px;
+}
+
 .popup-container {
   min-width: 200px;
   min-height: 100px;
@@ -29,11 +33,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5px;
+  padding: 5px 15px;
 
   .name {
     font-size: 12pt;
     margin-bottom: 10px;
+    text-align: center;
   }
   .switch {
     margin-bottom: 10px;
