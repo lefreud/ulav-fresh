@@ -12,6 +12,6 @@ chrome.runtime.onInstalled.addListener(details => {
 });
 
 chrome.contextMenus.onClicked.addListener(() => {
-    chrome.storage.sync.remove("loginCredentials");
+    chrome.storage.local.remove("loginCredentials");
     alert("Votre IDUL et mot de passe ont été réinitialisés. Ils seront de nouveau sauvegardés lors de votre prochaine connexion.");
 });

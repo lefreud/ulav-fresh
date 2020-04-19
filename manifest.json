@@ -13,6 +13,7 @@
   ],
   "background": {
     "scripts": [
+      "background/settingsManager.js",
       "background/autoRefresh.js",
       "background/browserAction.js",
       "background/darkThemeManager.js"

@@ -1,1 +1,1 @@
-chrome.storage.sync.remove("loginCredentials");
+chrome.storage.local.remove("loginCredentials");

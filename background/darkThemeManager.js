@@ -2,7 +2,7 @@ let darkThemeEnabled = false;
 
 let settings = null;
 
-chrome.storage.sync.get(['darkThemeEnabled'], (result) => {
+chrome.storage.local.get(['darkThemeEnabled'], (result) => {
     if (result.hasOwnProperty('darkThemeEnabled')) {
         darkThemeEnabled = result.darkThemeEnabled;
     }
