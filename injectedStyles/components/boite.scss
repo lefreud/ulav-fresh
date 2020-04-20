@@ -3,7 +3,12 @@
 .mpo-boite, .mpo-boite-onglet {
   background: $surface !important;
   border: none !important;
+
   .mpo-boite-titre {
     color: $on-surface !important;
   }
+}
+
+.af_document {
+  color: $on-surface !important;
 }

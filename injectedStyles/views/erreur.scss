@@ -1,0 +1,17 @@
+@import "../dark-theme-variables";
+
+.InfoGen_SoutientTechnique table {
+  background: $surface !important;
+  border-color: $surface-border !important;
+}
+
+.InfoGen_SoutientTechnique th {
+  background: $surface-selected !important;
+  color: $on-surface !important;
+}
+
+.InfoGen_SoutientTechnique tr:not(:only-child):not(:last-child) td,
+.InfoGen_SoutientTechnique td:first-child {
+  border-color: $surface-border !important;
+}
+
