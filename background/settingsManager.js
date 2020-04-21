@@ -1,5 +1,5 @@
 const DEFAULT_SETTINGS = {
-    darkThemeEnabled: true,
+    darkThemeEnabled: false,
     automatedLoginEnabled: true,
 }
 
