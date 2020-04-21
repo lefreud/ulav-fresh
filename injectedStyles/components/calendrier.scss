@@ -107,3 +107,21 @@
 .fc .fc-time span {
   background: $surface !important;
 }
+
+.mpo-calendriers-entete {
+  border-color: $surface-border !important;
+}
+
+
+.mpo-calendriers-interrupteur-conteneur {
+  border-color: $surface-border !important;
+}
+
+.mpo-calendriers-legende .mpo-accordeon-session.mpo-accordeon-session v-pane, .mpo-pastille-calendriers-legende .mpo-accordeon-session.mpo-accordeon-session v-pane {
+  border-color: $surface-border !important;
+}
+
+.mpo-calendriers-legende .mpo-accordeon-session.mpo-accordeon-session v-pane, .mpo-pastille-calendriers-legende .mpo-accordeon-session.mpo-accordeon-session v-pane {
+  background: $surface-selected !important;
+  border-color: $surface-border !important;
+}

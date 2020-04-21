@@ -3,3 +3,7 @@
 .mpo-groupe-boutons-minimalistes button.active, .mpo-groupe-boutons-minimalistes button:focus {
   color: $on-surface !important;
 }
+
+.mpo-groupe-boutons-minimalistes button:hover {
+  color: $on-surface-hover !important;
+}

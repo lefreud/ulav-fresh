@@ -112,3 +112,14 @@ input[type=file] {
 .mpo-accordeon-allege v-pane-header:focus, .mpo-accordeon-allege v-pane-header:hover, .mpo-accordeon-calendriers v-pane-header:focus, .mpo-accordeon-calendriers v-pane-header:hover, .mpo-accordeon-regulier v-pane-header:focus, .mpo-accordeon-regulier v-pane-header:hover {
   color: $on-surface-hover !important;
 }
+
+.mpo-formulaire-checkbox-survol input~label:hover, .mpo-formulaire-radio-survol input~label:hover, .mpo-liste-checkbox-survol li input~label:hover, .mpo-liste-radio-survol li input~label:hover {
+  background: $surface-hover !important;
+}
+
+.mpo-formulaire-checkbox input~label .input, .mpo-formulaire-checkbox-survol input~label .input, .mpo-formulaire-checkbox-survol-pale input~label .input, .mpo-formulaire-radio input~label .input, .mpo-formulaire-radio-survol input~label .input, .mpo-formulaire-radio-survol-pale input~label .input {
+  border-color: $on-surface !important;
+  color: $on-surface !important;
+}
+
+

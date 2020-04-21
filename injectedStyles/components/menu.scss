@@ -3,3 +3,19 @@
 .mpo-menu {
   background: $surface !important;
 }
+
+@media (min-width: 768px) {
+  .mpo-menu-options-action:not(.mpo-menu-options-desactive):hover .mpo-menu-options-icone {
+    background: $surface-hover !important;
+  }
+}
+
+.mpo-menu-options-elem a, .mpo-menu-options-elem a:visited {
+  color: $on-surface !important;
+}
+
+@media (min-width: 768px) {
+  .mpo-menu-options-action:not(.mpo-menu-options-desactive):hover .mpo-menu-options-icone::before {
+    color: $on-surface !important;
+  }
+}

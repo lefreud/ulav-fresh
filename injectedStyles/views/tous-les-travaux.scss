@@ -1,0 +1,13 @@
+@import "../dark-theme-variables";
+
+.mpo-tlt-recherche {
+  background: $surface !important;
+}
+
+.mpo-calendriers-legende .mpo-liste-checkbox-tlt .ng-not-empty~label {
+  background: $surface-selected !important;
+}
+
+.mpo-filtre-actif {
+  background: $surface !important;
+}

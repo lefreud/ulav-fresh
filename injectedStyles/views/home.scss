@@ -1,5 +1,4 @@
 @import "../dark-theme-variables";
-@import "../templates/examens-travaux";
 @import "../templates/liste-cours";
 @import "../templates/messages-importants";
 
@@ -17,4 +16,16 @@
     background: $surface-border;
     border-color: $surface-border;
   }
+}
+
+.mpo-examens-travaux-carrousel {
+  background: $background !important;
+}
+
+.mpo-examens-travaux-ponderation {
+  border-color: $surface-border !important;
+}
+
+.mpo-examens-travaux__vue-ensemble.mpo-lien-avant {
+  border-color: $surface-border !important;
 }
