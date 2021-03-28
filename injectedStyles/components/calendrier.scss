@@ -125,3 +125,15 @@
   background: $surface-selected !important;
   border-color: $surface-border !important;
 }
+
+.m-base-calendar__header, .m-base-calendar__body {
+  background: $surface !important;
+  .m-base-calendar__years-months-view {
+
+    background: $surface !important;
+    .m-calendar-button {
+      color: $on-surface !important;
+    }
+  }
+}
+

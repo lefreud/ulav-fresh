@@ -20,6 +20,10 @@
   border-color: $background-border !important;
 }
 
+.ul_richTextEditor_content a[name], .ul_richTextEditor_content a[name]:hover, .FCK__AnchorC {
+  color: $on-surface !important;
+}
+
 .ul_table {
   border-color: $background-border !important;
 }

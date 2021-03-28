@@ -25,6 +25,10 @@
   background: $warning-background !important;
 }
 
+.mpo-message-nouveaute.mpo-message-avec-icone::after {
+  background: $success-background !important;
+}
+
 .mpo-message-entretien.mpo-message-avec-icone::after {
   background: $warning-background !important;
 }

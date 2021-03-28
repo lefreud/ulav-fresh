@@ -1,0 +1,102 @@
+@import "../dark-theme-variables";
+
+.pp-entete__bandeau {
+  background: $background !important;
+}
+
+.pp-contenu-vide.pp--is-skin-pale {
+  background: $surface !important;
+}
+.pp-contenu-vide.pp--is-skin-fonce {
+  background: $surface !important;
+}
+
+.m-switch:not(.m--is-disabled):not(.m--is-waiting) .m-switch__label {
+  color: $on-background !important;
+}
+.m-switch:not(.m--is-disabled):not(.m--is-waiting) .m-switch__input {
+  border: none !important;
+}
+.pp-tableau-etudes__tableau {
+  background: $surface !important;
+  .m-table tbody {
+    color: $on-surface !important;
+  }
+}
+
+.m-switch__input {
+  background: $surface !important;
+
+  .m-switch__text {
+    color: $on-surface !important;
+  }
+}
+
+.m-overlay__wrap {
+  background: $background !important;
+}
+.m-overlay__header, .m-overlay__footer, .m-overlay__article {
+  background: $surface !important;
+}
+
+.m-input-style__body {
+  background: $background !important;
+}
+
+.m-input-style__main {
+  border-color: $surface-border !important;
+}
+.m-input-style__text {
+  background: $background !important;
+}
+
+.pp-liste-edition__entete {
+  background: $surface !important;
+}
+
+.m-table.m--is-row-highlighted-on-hover tbody {
+  color: $on-surface !important;
+}
+
+.m-table.m--is-row-highlighted-on-hover tbody tr:not(.m-table__message):not(.m-table__loading) {
+  background: $surface !important;
+}
+
+
+.m-table.m--is-row-highlighted-on-hover tbody tr:hover:not(.m-table__message):not(.m-table__loading) {
+  background: $surface-hover !important;
+}
+
+.m-chip-add {
+  color: $on-surface !important;
+}
+
+.m-modal__article {
+  background: $surface !important;
+}
+
+.pp-boite-badge.pp--is-mode-vignette:not(.pp--is-succes) {
+  background: $surface !important;
+  svg polygon {
+    fill: $surface !important;
+  }
+}
+
+.pp-boite-badge.pp--is-mode-vignette.pp--is-succes {
+  background: $surface-hover !important;
+  svg polygon {
+    fill: $surface-hover !important;
+  }
+}
+
+.pp-boite-badge.pp--is-mode-vignette .pp-boite-badge__badge::before {
+  background: $surface !important;
+}
+
+.pp-message-spla {
+  background: $surface !important;
+}
+
+.m-checkbox__label {
+  color: $on-background !important;
+}
