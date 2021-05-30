@@ -67,3 +67,7 @@
 .mpo-message-fermer {
   background: none !important;
 }
+
+.mpo-messages-entretien-elem.mpo-messages-entretien-elem .mpo-message-regulier.mpo-message-regulier {
+  background: $surface !important;
+}
