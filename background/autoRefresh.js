@@ -11,11 +11,15 @@ chrome.alarms.create("refreshTabs", {
  * PDF examples:
  * https://sitescours.monportail.ulaval.ca/contenu/sitescours/036/03606/202001/site111803/modules704683/module908888/page2464237/bloccontenu2302541/2020%20GEL-1001%20-%20Technique%20I.pdf?identifiant=726e70df12a3eea165491ff21c6658b9e042001a
  *
+ * Video page examples:
+ * https://sitescours.monportail.ulaval.ca/contenu/sitescours/040/04000/202105/site129258/modules888011/module1120388/page3034810/bloccontenu2976945/Technosph%C3%A8re.mp4?identifiant=eb915599130b98d4fb60b26b8b0ee379586bdb55
+ *
  * @type {RegExp[]}
  */
 const BLACKLISTED_URL_FORMATS = [
     /^http[s]?:\/\/sitescours\.monportail\.ulaval\.ca\/ena\/site\/executionquestionnaire.*$/,
-    /^http[s]?:\/\/.*\.ulaval\.ca\/.*\.pdf.*$/i
+    /^http[s]?:\/\/.*\.ulaval\.ca\/.*\.pdf.*$/i,
+    /^http[s]?:\/\/.*\.ulaval\.ca\/.*\.mp4.*$/i
 ]
 
 // Refresh timer listener
