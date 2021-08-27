@@ -1,7 +1,7 @@
 @import "../dark-theme-variables";
 
 .mpo-message-corps {
-  background: $surface !important;
+  background: transparent !important;
   color: $on-surface !important;
   .mpo-message-contenu {
     .mpo-message-texte {
@@ -9,8 +9,17 @@
     }
   }
 }
+
+.mpo-message-attention.mpo-message-avec-icone {
+  background: $error-background !important;
+}
+
 .mpo-message-attention.mpo-message-avec-icone::after {
   background: $error-background !important;
+}
+
+.mpo-message-information.mpo-message-avec-icone {
+  background-color: $info-background !important;
 }
 
 .mpo-message-information.mpo-message-avec-icone::after {
@@ -21,12 +30,24 @@
   background: $warning-background !important;
 }
 
+.mpo-message-avertissement.mpo-message-avec-icone {
+  background: $warning-background !important;
+}
+
 .mpo-message-avertissement.mpo-message-avec-icone::after {
   background: $warning-background !important;
 }
 
+.mpo-message-nouveaute.mpo-message-avec-icone {
+  background: $success-background !important;
+}
+
 .mpo-message-nouveaute.mpo-message-avec-icone::after {
   background: $success-background !important;
+}
+
+.mpo-message-entretien.mpo-message-avec-icone {
+  background: $warning-background !important;
 }
 
 .mpo-message-entretien.mpo-message-avec-icone::after {
@@ -35,6 +56,10 @@
 
 .Avertissement:before, .MessageAvertissement_Content:before {
   background: $warning-background !important;
+}
+
+.mpo-message-succes.mpo-message-avec-icone {
+  background: $success-background !important;
 }
 
 .mpo-message-succes.mpo-message-avec-icone::after {
@@ -66,8 +91,4 @@
 }
 .mpo-message-fermer {
   background: none !important;
-}
-
-.mpo-messages-entretien-elem.mpo-messages-entretien-elem .mpo-message-regulier.mpo-message-regulier {
-  background: $surface !important;
 }

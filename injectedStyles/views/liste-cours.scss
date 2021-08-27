@@ -1,3 +1,9 @@
+@import "../dark-theme-variables";
+
 .mpo-boite-cours-resultats-cote {
   background: none !important;
+}
+
+.mpo-tableau-liste-cours-entete.mpo-tableau-liste-cours-entete {
+  background-color: $surface;
 }

@@ -9,6 +9,25 @@
   }
 }
 
+.mpo-liste-detaille-section-autres-cours>.__corps {
+  background-color: $background;
+}
+
+.mpo-boite-message {
+  border: none !important;
+  .__corps {
+    background-color: $surface;
+  }
+}
+
+.mpo-boite-introduction {
+  border: none !important;
+}
+
+.mpo-boite-introduction:not(.mpo--has-zone-affichage) .mpo-boite-introduction__corps {
+  background: $surface !important;
+}
+
 .af_document {
   color: $on-surface !important;
 }
