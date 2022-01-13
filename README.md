@@ -23,3 +23,7 @@ npm run build
 This will create a `dist` folder containing the built extension.
 
 You must then go to `chrome://extensions`, toggle _Developer mode_ on and click on _Load unpacked_. Then, select the `dist` folder.
+
+## Credentials are not encrypted
+
+IDUL & passwords are stored unencrypted in Chrome's local storage, which is unsafe. Read more on the implications of this in https://github.com/lefreud/ulav-fresh/issues/8.
